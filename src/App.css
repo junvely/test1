@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.input-con {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.input-con input {
+  padding-left: 5px;
+}
+
+h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.todo-con {
+  width: 1280px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo-con li {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid rgb(55, 199, 26);
+  border-radius: 20px;
+}
